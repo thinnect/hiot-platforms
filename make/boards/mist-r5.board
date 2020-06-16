@@ -45,6 +45,9 @@ CFLAGS += -DLDMA_INTERRUPT_PRIORITY=5
 # Use the 10dBm PA
 CFLAGS += -DDEFAULT_RAIL_TX_POWER_MODE="'M'"
 
+# Antenna is on IO2
+CFLAGS += -DDEFAULT_ANTENNA_PATH_IO2
+
 # Pull in the board support code
 BOARD_SRC_DIR       := $(BOARD_MAKE_DIR)/../../src/boards/$(BOARD_NAME)
 INCLUDES            += -I$(BOARD_SRC_DIR)
