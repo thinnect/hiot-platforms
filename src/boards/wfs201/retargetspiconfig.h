@@ -2,7 +2,7 @@
  * SPI configuration for WFS-201.
  *
  * Copyright Thinnect Inc. 2020
- * @license <PROPRIETARY>
+ * @license MIT
  */
 #ifndef RETARGETSPICONFIG_H_
 #define RETARGETSPICONFIG_H_

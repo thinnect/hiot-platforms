@@ -15,7 +15,7 @@ DEFAULT_RFPOWER_DBM ?= 10
 # Include the architecture definition
 $(call includeArch,efr32xg2x)
 
-MCU_PART            := EFR32MG21B010F1024IM32
+MCU_PART            := EFR32MG21A020F1024IM32
 MCU_ARCH            := efr32xg2x
 MCU_FAMILY          := efr32xg21
 
