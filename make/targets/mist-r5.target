@@ -8,7 +8,7 @@
 # This is the H-IoT Mist R5 (mist-r5)
 
 # Pull in the board definition
-$(call includeBoard,wfs201)
+$(call includeBoard,mist-r5)
 
 # Pull in the JTAG adapter
 PROGRAMMER_TRANSPORT = swd
