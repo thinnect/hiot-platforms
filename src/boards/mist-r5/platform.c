@@ -66,3 +66,9 @@ void PLATFORM_RadioInit ()
 {
     // Nothing to do
 }
+
+void PLATFORM_HardReset ()
+{
+	NVIC_SystemReset(); // No hard-reset capability available
+}
+
